@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
-TOKEN = os.getenv("TOKEN")
+Telegram_TOEKN = os.getenv("Telegram_TOEKN")
 
 INSTRUCTIONS = """I want you to act as a spoken English teacher and improver. I will speak to you in English and you will reply to me in English to practice my spoken English. I want you to keep your reply neat, limiting the reply to 100 words. I want you to strictly correct my grammar mistakes, typos, and factual errors. I want you to ask me a question in your reply. Now let's start practicing, you could ask me a question first. Remember, I want you to strictly correct my grammar mistakes, typos, and factual errors."""
 TEMPERATURE = 0.5
@@ -68,7 +68,7 @@ async def echo(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
     await update.message.reply_text(response)
 
-app = ApplicationBuilder().token(TOKEN).build()
+app = ApplicationBuilder().token(Telegram_TOEKN).build()
 
 app.add_handler(CommandHandler("start", hello))
 app.add_handler(MessageHandler(filters.TEXT, echo))

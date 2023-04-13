@@ -21,7 +21,7 @@ You will also need to have an OpenAI API key and a Telegram bot token. You can o
 `
 3. Create a .env file in the root directory of the project with the following contents: \
 `OPENAI_API_KEY=<your OpenAI API key>`\
-`TOKEN=<your Telegram bot token>
+`Telegram_TOEKN=<your Telegram bot token>
 `
 4. Start the bot by running:
 python main.py
