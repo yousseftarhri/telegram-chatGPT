@@ -5,11 +5,12 @@ This is a simple Telegram bot that acts as a spoken English teacher and improver
 **Requirements**\
 To run the bot, you will need to have the following installed:
 
-Python 3.7 or later
-openai Python library
-python-telegram-bot Python library
-dotenv Python library
-You will also need to have an OpenAI API key and a Telegram bot token. You can obtain these by following the instructions provided by OpenAI and Telegram, respectively.
+- Python 3.7 or later
+- openai Python library
+- python-telegram-bot Python library
+- dotenv Python library 
+
+You will also need to have an OpenAI API key and a Telegram bot token. You can obtain these by following the instructions provided by [OpenAI](https://openai.com/blog/openai-api) and [Telegram](https://core.telegram.org/bots), respectively.
 
 **Installation**
 1. Clone this repository:\
