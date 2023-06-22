@@ -1,6 +1,6 @@
 # AI Spoken English Teacher
 
-**Medium Article : ** https://medium.com/@yousseftarhri15/revolutionizing-chatbots-using-chatgpt-to-build-a-smarter-telegram-bot-39cd25ace917
+**Medium Article :** https://medium.com/@yousseftarhri15/revolutionizing-chatbots-using-chatgpt-to-build-a-smarter-telegram-bot-39cd25ace917
 
 This is a simple Telegram bot that acts as a spoken English teacher and improver using OpenAI's GPT-3.5 language model. The bot replies to messages sent to it by the user and provides corrections for grammar mistakes, typos, and factual errors in the message. It also asks a follow-up question to encourage further conversation.
 
